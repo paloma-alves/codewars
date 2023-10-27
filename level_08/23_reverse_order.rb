@@ -5,5 +5,5 @@
 # * [9, 2, 0, 7]  -> [7, 0, 2, 9]
 
 def reverse_list list
-	
+	list.reverse
 end
