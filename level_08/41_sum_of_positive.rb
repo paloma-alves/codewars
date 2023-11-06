@@ -5,7 +5,7 @@
 # Note: if there is nothing to sum, the sum is default to 0.
 
 def positive_sum(arr)
-  negative = arr.reject(&:negative?)
-  negative.sum
+  arr.reject(&:negative?).sum
 end
+
 
